@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+body{
+    background-color: #97e4f1c5;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.content{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    width: 350px;
+    height: 490px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}.content img{
+    margin: -10;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 200px;
+}
+.content .txt_1 h1{
+    color: #1D2D55;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content .txt_1 p{
+    color: #1D2D55;
+    text-align: center;
+}
+.content .pay{
+    background-color: #d6e1ff5d;
+    width: 300px;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.pay span{
+    color: blue;
+    font-weight: bold;
+}
+.pay img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #382AE1;
+    box-shadow: 10px 2px 15px 2px rgba(0, 0, 0, 0.267);
+    color: #ffff;
+    cursor: pointer;
+    font-weight: 600;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+.btn:hover{
+    background-color: #392ae1a6;
+}
+.content p{
+    text-align: center;
+    
+}
