@@ -63,6 +63,7 @@ main{
 .pay a{
     color: #0000ff;
     font-weight: 600;
+    text-decoration: none;
     font-weight: bold;
 }
 .pay a:hover{
