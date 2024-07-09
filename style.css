@@ -77,6 +77,7 @@ main{
 .price{
     padding: 10px;
     display: flex;
+    margin-right: auto;
     flex-direction: column;
 }
 .price p{
@@ -85,7 +86,7 @@ main{
 .pay img{
     width: 40px;
     height: 40px;
-    margin-right: -70px;
+    
     
 }
 
