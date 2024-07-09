@@ -58,8 +58,10 @@ main{
     
 
 }
-.pay span{
-    color: blue;
+.pay a{
+    color: #1D2D55;
+    text-decoration: none;
+    font-weight: 600;
     font-weight: bold;
 }
 .pay img{
