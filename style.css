@@ -54,19 +54,25 @@ main{
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
     
     
 
 }
 .pay a{
-    color: #1D2D55;
-    text-decoration: none;
+    color: #0000ff;
     font-weight: 600;
     font-weight: bold;
 }
+.pay a:hover{
+    color: #1D2D55;
+    text-decoration: none;
+}
 .price{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .price p{
     color: #1D2D55;
